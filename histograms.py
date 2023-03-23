@@ -20,7 +20,7 @@ plt.hist(data['goal'][data["outcome"] == "failed"],
          edgecolor="red")
 
 plt.legend(loc='upper right')
-plt.title('Overlapping')
+plt.title('Campaign Goals Success/Failures')
 plt.show()
 
 # plt.scatter(x=data['goal'],
